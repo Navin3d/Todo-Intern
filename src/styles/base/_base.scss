@@ -1,0 +1,72 @@
+html {
+    font-size: 62.5%;
+}
+  
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(128, 128, 128, 0.548), rgba(128, 128, 128, 0.548)), url("https://images.pexels.com/photos/317356/pexels-photo-317356.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+button, input[type="submit"] {
+    cursor: pointer;
+    color: #999;
+    background-color: white;
+    border: none;
+}
+
+.add-list_input {
+    padding: 10px 20px;
+    width: 500px;
+    margin: 5px 0;
+}
+
+.add-item_input {
+    padding: 5px 10px;
+    width: 250px;
+    margin: 5px 0;
+}
+
+.list-submit {
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+}
+
+.item-submit {
+    border-radius: 20px;
+    height: 20px;
+    width: 50px;
+}
+
+.remove-list {
+    border-radius: 20px;
+    height: 40px;
+    width: 70px;
+}
+
+.remove-item {
+    border-radius: 20px;
+}
+  
+button:disabled {
+    cursor: default;
+}
+  
+.is-active {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    font-size: small;
+    margin-bottom: 20px;
+}
+  
